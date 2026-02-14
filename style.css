@@ -421,3 +421,49 @@ footer {
         margin-bottom: 28px;
     }
 }
+
+/* Language Toggle */
+.hinglish {
+    display: none;
+}
+
+.mode-hinglish .hindi {
+    display: none;
+}
+
+.mode-hinglish .hinglish {
+    display: inline;
+}
+
+#langToggleBtn {
+    display: block;
+    margin: -15px auto 25px auto;
+    background: #fff;
+    color: #ff6b35;
+    border: 2px solid #ff8c42;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#langToggleBtn:hover {
+    background: #ff8c42;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    #langToggleBtn {
+        font-size: 0.85em;
+        padding: 7px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    #langToggleBtn {
+        font-size: 0.8em;
+        padding: 6px 14px;
+    }
+}
